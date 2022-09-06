@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-user</title>
+    <!--Importação do JQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <form action="/entrar" method="post">
+
+        <!--Nome de Usuário-->
+        <input type="text" name="username" id="username" placeholder="Digite seu nome de Usúario">
+        <!--Senha do Usuário-->
+        <input type="password" name="password" id="password" placeholder="Digite sua senha">
+        <button type="submit">Entrar</button>
+        <span>
+            <a href="/cadastro">
+                Não tenho conta...
+            </a>
+        </span>
+
+    </form>
+</body>
+</html>
