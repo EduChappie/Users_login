@@ -4,6 +4,7 @@
     * express
     * ejs
     * body-parser
+    * env
 
 ### Implementações necessárias
 => Passport.js

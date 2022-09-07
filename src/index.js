@@ -1,9 +1,12 @@
+require("dotenv").config();
+
 const express = require("express")
 const path = require("path")
 const bodyParser = require("body-parser")
-const database = require("./db/database")
+const connectionDatabase = require("./db/database")
 const router = require("./routers/router")
-const { route } = require("./routers/router")
+
+connectionDatabase()
 
 const app = express()
 
